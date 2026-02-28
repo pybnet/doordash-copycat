@@ -14,4 +14,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8090
 
 # Run the application
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8090"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
